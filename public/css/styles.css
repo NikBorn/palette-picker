@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: grey;
+}
+
+main {
+  background-color: blue;
+  display: inline-block;
+  width: 80%;
+  min-height: 100vh;
+}
+
+aside {
+  background-color: red;
+  float: right;
+  width: 20%;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+.main-palette {
+  width: 306px;
+  border: 1px solid black;
+}
+
+.colorbox {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.color1 {
+  background-color: magenta;
+}
+
+.color2 {
+  background-color: lime;
+}
