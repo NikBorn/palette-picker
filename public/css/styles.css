@@ -29,8 +29,12 @@ h1 {
 }
 
 .main-palette {
-  width: 306px;
-  border: 1px solid black;
+  display: flex;
+  width: 304px;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  margin: 40px auto 10px auto;
+  position: relative;
 }
 
 .colorbox {
@@ -45,4 +49,24 @@ h1 {
 
 .color2 {
   background-color: lime;
+}
+
+.color3 {
+  background-color: orange;
+}
+
+.color4 {
+  background-color: royalblue;
+}
+
+.color5 {
+  background-color: skyblue;
+  position: absolute;
+  left: 75px;
+  top: 75px
+}
+
+.create-palette-button {
+  display: block;
+  margin: 0 auto 20px auto;
 }
